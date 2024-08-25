@@ -1,0 +1,362 @@
+/* Estilos Globais */
+  body {
+    font-family: 'Baloo Tamma 2', sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  /* Header */
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .navbar {
+    background-color: #e83e8c;
+  }
+
+  .navbar-brand img {
+    width: 120px;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .navbar-nav .btn {
+    color: #fff;
+  }
+
+  /* Animação da Logo */
+  .logo-animation {
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+  /* Animação dos Botões */
+  .btn-animation {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .btn-animation:hover {
+    background-color: #c82333;
+    transform: scale(1.1);
+  }
+
+  /* Animação das Imagens */
+  .img-animation {
+    animation: fadeIn 2s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .img-scale-opacity {
+    animation: scaleOpacity 2s ease-in-out infinite;
+  }
+
+  @keyframes scaleOpacity {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.8;
+    }
+  }
+
+  /* Home Section */
+  .home-section {
+    padding: 100px 0;
+  }
+
+  .home-section .display-4 {
+    font-family: 'Lobster', cursive;
+    color: #e83e8c;
+  }
+
+  /* Estilo para os ícones sociais */
+  .social-icons {
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  .social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e83e8c; /* Cor de fundo */
+    color: #fff; /* Cor do ícone */
+    text-align: center;
+    line-height: 40px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+
+  .social-icon:hover {
+    transform: scale(1.1);
+    background-color: #c82333; /* Cor de fundo ao passar o mouse */
+  }
+
+  .social-icon i {
+    font-size: 18px; /* Tamanho do ícone */
+  }
+
+  /* Sabores Section */
+  .sabores-section {
+    padding: 60px 0;
+  }
+
+  .sabor-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .sabor-card img {
+    max-height: 200px;
+  }
+
+  /* About Section */
+  .about-section {
+    padding: 60px 0;
+  }
+
+  /* Product Selection */
+  .product-selection {
+    padding: 60px 0;
+  }
+
+  .product-card /* Estilos Globais */
+body {
+  font-family: 'Baloo Tamma 2', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  background-color: #e83e8c;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Lobster', cursive;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700; /* Dourado ao passar o mouse */
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+.navbar-nav .btn {
+  color: #fff;
+}
+
+/* Animação da Logo */
+.logo-animation {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Animação dos Botões */
+.btn-animation {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-animation:hover {
+  background-color: #c82333;
+  transform: scale(1.1);
+}
+
+/* Animação das Imagens */
+.img-animation {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.img-scale-opacity {
+  animation: scaleOpacity 2s ease-in-out infinite;
+}
+
+@keyframes scaleOpacity {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+/* Home Section */
+.home-section {
+  padding: 100px 0;
+}
+
+.home-section .display-4 {
+  font-family: 'Lobster', cursive;
+  color: #e83e8c;
+}
+
+/* Estilo para os ícones sociais */
+.social-icons {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e83e8c; /* Cor de fundo */
+  color: #fff; /* Cor do ícone */
+  text-align: center;
+  line-height: 40px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  background-color: #c82333; /* Cor de fundo ao passar o mouse */
+}
+
+.social-icon i {
+  font-size: 18px; /* Tamanho do ícone */
+}
+
+/* Sabores Section */
+.sabores-section {
+  padding: 60px 0;
+}
+
+.sabor-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sabor-card img {
+  max-height: 200px;
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 0;
+}
+
+/* Product Selection */
+.product-selection {
+  padding: 60px 0;
+}
+
+.product-card {
+  border: 1px solid #e83e8c;
+  border-radius: 10px;
+}
+
+.product-image {
+  max-height: 200px;
+  animation: scaleOpacity 2s ease-in-out infinite;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #e83e8c;
+  color: #fff;
+}
+
+.footer-logo img {
+  width: 100px;
+  animation: bounce 2s infinite;
+}
+
+.footer-cupcake img {
+  width: 50px;
+  animation: bounce 2s infinite;
+}
+
+.footer p {
+  color: #fff;
+}
+    border: 1px solid #e83e8c;
+    border-radius: 10px;
+  }
+
+  .product-image {
+    max-height: 200px;
+    animation: scaleOpacity 2s ease-in-out infinite;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 60px 0;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #e83e8c; /* Cor de fundo rosa */
+    padding: 40px 0;
+  }
+
+  .footer-logo img {
+    width: 100px;
+    animation: bounce 2s infinite;
+  }
+
+  .footer-cupcake img {
+    width: 50px;
+    animation: bounce 2s infinite;
+  }
+
+  .footer p {
+    color: #fff;
+  }
+  
